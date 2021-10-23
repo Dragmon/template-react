@@ -17,3 +17,7 @@ You will also see any lint errors in the console.
 ### `npm build`
 
 Generate files for the production environment
+
+### `npx tsc --init`
+
+Generate file configuration typescript tsconfig.json
