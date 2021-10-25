@@ -31,5 +31,6 @@ module.exports = {
     'jsx-quotes': [RULES.ERROR, 'prefer-single'],
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
+    '@typescript-eslint/no-inferrable-types': 'off',
   },
 };
