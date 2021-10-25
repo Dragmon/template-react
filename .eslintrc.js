@@ -30,7 +30,7 @@ module.exports = {
     'no-console': RULES.WARN,
     'jsx-quotes': [RULES.ERROR, 'prefer-single'],
     'no-use-before-define': RULES.OFF,
-    '@typescript-eslint/no-use-before-define': ['error'],
+    '@typescript-eslint/no-use-before-define': [RULES.ERROR],
     '@typescript-eslint/no-inferrable-types': RULES.OFF,
     '@typescript-eslint/no-var-requires': RULES.OFF,
   },
