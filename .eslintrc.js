@@ -29,8 +29,9 @@ module.exports = {
   rules: {
     'no-console': RULES.WARN,
     'jsx-quotes': [RULES.ERROR, 'prefer-single'],
-    'no-use-before-define': 'off',
+    'no-use-before-define': RULES.OFF,
     '@typescript-eslint/no-use-before-define': ['error'],
-    '@typescript-eslint/no-inferrable-types': 'off',
+    '@typescript-eslint/no-inferrable-types': RULES.OFF,
+    '@typescript-eslint/no-var-requires': RULES.OFF,
   },
 };
